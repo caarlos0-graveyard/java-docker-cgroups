@@ -4,7 +4,7 @@ Playing around with the new cgroup-related JVM option.
 
 ```console
 # builds a program that eats all memory (1mb at time) and prints runtime info
-$ javac MemoryEater.java
+$ javac Main.java
 
 # builds a docker image with that container
 $ docker build -t caarlos0/java-docker-cgroups .
