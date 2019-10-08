@@ -66,4 +66,4 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 ```
 
 Note that the first time the container was killed (OOMKill) and the second time
-it uses at its available heat (~50% max mem) and died.
+it uses at its available heap (~50% max mem) and died.
